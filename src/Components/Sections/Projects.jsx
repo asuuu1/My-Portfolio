@@ -67,7 +67,7 @@ export const Projects = () => {
                         - Achieved 100% accuracy in encryption and decryption processes.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
-                        {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                        {["Java", "GUI", "Java Swing"].map((tech, key) => (
                             <span
                                 key={key}
                                 className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
