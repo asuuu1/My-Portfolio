@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import { LoadingScreen } from './Components/LoadingScreen'
 import { Navbar } from './Components/Navbar';
+import Footer from './Components/Footer';
 import { MobileMenu } from './Components/MobileMenu';
 import { Home } from './Components/Sections/Home';
 import { About } from './Components/Sections/About';
@@ -27,6 +28,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Footer />
       </div>
       </>
   );
